@@ -1,4 +1,5 @@
 {
   "name": "classie",
-  "main": "./classie.js"
+  "main": "./classie.js",
+  "version": "0.0.3"
 }
