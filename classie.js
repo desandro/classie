@@ -5,6 +5,7 @@
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
+ * classie.toggle( elem, 'my-class' )
  */
 
 /*jshint browser: true, strict: true, undef: true */
@@ -48,15 +49,22 @@ else {
   };
 }
 
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+
 window.classie = {
   // full names
   hasClass: hasClass,
   addClass: addClass,
   removeClass: removeClass,
+  toggleClass: toggleClass,
   // short names
   has: hasClass,
   add: addClass,
-  remove: removeClass
+  remove: removeClass,
+  toggle: toggleClass
 };
 
 })( window );
