@@ -9,6 +9,7 @@
  */
 
 /*jshint browser: true, strict: true, undef: true */
+/*global define: false */
 
 ( function( window ) {
 
@@ -54,7 +55,7 @@ function toggleClass( elem, c ) {
   fn( elem, c );
 }
 
-window.classie = {
+var classie = {
   // full names
   hasClass: hasClass,
   addClass: addClass,
@@ -66,5 +67,14 @@ window.classie = {
   remove: removeClass,
   toggle: toggleClass
 };
+
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else {
+  // browser global
+  window.classie = classie;
+}
 
 })( window );
