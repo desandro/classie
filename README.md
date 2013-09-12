@@ -14,5 +14,5 @@ classie.toggle( element, 'my-class' ) // toggle class
 This script is a [Bower](https://github.com/twitter/bower) component.
 
 ``` bash
-bower install desandro/classie
+bower install classie
 ```
