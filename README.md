@@ -11,8 +11,12 @@ classie.toggle( element, 'my-class' ) // toggle class
 
 ## Bower
 
-This script is a [Bower](https://github.com/twitter/bower) component.
+eventie is a [Bower](http://bower.io) component.
 
 ``` bash
 bower install classie
 ```
+
+## MIT license
+
+classie is released under the [MIT license](http://desandro.mit-license.org).
