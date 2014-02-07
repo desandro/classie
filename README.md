@@ -11,7 +11,7 @@ classie.toggle( element, 'my-class' ) // toggle class
 
 ## Bower
 
-eventie is a [Bower](http://bower.io) component.
+classie is a [Bower](http://bower.io) component.
 
 ``` bash
 bower install classie
