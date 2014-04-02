@@ -74,6 +74,9 @@ var classie = {
 if ( typeof define === 'function' && define.amd ) {
   // AMD
   define( classie );
+} else if ( typeof module === 'object' && module.exports ) {
+  // CommonJS
+  module.exports = classie;
 } else {
   // browser global
   window.classie = classie;
