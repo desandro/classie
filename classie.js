@@ -74,7 +74,7 @@ var classie = {
 if ( typeof define === 'function' && define.amd ) {
   // AMD
   define( classie );
-} else if ( typeof module === 'object' && module.exports ) {
+} else if ( exports === 'object' ) {
   // CommonJS
   module.exports = classie;
 } else {
