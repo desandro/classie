@@ -1,0 +1,8 @@
+{
+  "name": "classie",
+  "repo": "desandro/classie",
+  "description": "class helper",
+  "version": "1.0.1",
+  "scripts": ["classie.js"],
+  "main": "classie.js"
+}
