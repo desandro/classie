@@ -1,4 +1,4 @@
-# Classie - class helper functions
+# classie - class helper functions
 
 [Ripped from bonzo](https://github.com/ded/bonzo) :heart: @ded
 
