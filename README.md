@@ -13,7 +13,7 @@ classie.toggle( element, 'my-class' ) // toggle class
 
 Install with [Bower](http://bower.io) :bird: `bower install classie`
 
-Install with npm `npm install desandro-classie`
+Install with [npm](https://github.com/npm/npm) `npm install desandro-classie`
 
 Install with [Component](http://github.com/component/component) `component install desandro/classie`
 
