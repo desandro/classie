@@ -2,6 +2,14 @@
 
 [Ripped from bonzo](https://github.com/ded/bonzo) :heart: @ded
 
+## No longer supported
+
+Use classie only if you need to support older browsers that do not support `classList`. `classList` is supported in IE10+, Android 3+, iOS Safari 5.1+, and modern evergreen browsers. [Can I use classList](http://caniuse.com/#search=classlist)?
+
+classie is longer supported. v1.0.1 is the final version.
+
+## Usage
+
 ``` js
 classie.has( element, 'my-class' ) // returns true/false
 classie.add( element, 'my-new-class' ) // add new class
